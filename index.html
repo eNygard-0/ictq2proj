@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos Hermanos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dokdo&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dokdo&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="q2.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="index.html">LPH</a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LPH</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item ">
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  RECIPES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">All Recipes</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Tacos</a></li>
+                  <li><a class="dropdown-item" href="#">Wraps</a></li>
+                  <li><a class="dropdown-item" href="#">Quesadillas</a></li>
+                  <li><a class="dropdown-item" href="#">Nachos</a></li>
+                  <li><a class="dropdown-item" href="#">Dips</a></li>
+                  <li><a class="dropdown-item" href="#">Other</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#">ABOUT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="login.html" class="login-button">Login</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav><br><br><br><br>
+
+    <div class="title row justify-content-center">
+        <p>LOS POLLOS</p>
+        <p class="herm">HERMANOS</p>
+    </div>
+
+    <div class="cat container-fluid rounded align-self-center">
+        <div class="row text-center"><p style="font-family: dokdo; color: #ff8776ff; font-size: 80px;">Recipe Categories</p>
+        </div>
+        <div class="row justify-content-center p-3">
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center ">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-taco.jpg" href="icon-taco.jpg"></div>
+                <div class="ytext col-md-12">Tacos</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-burrito.jpg" href="#"></div>
+                <div class="ytext col-md-12">Wraps</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-quesadilla.jpg" href="#"></div>
+                <div class="ytext col-md-12">Quesadillas</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-nachos.jpg" href="#"></div>
+                <div class="ytext col-md-12">Nachos</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-dips.jpg" href="#"></div>
+                <div class="ytext col-md-12">Dips</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-other.jpg" href="#"></div>
+                <div class="ytext col-md-12">Other</div>
+            </div>
+            <div class="circ col-md-3 col-sm-6 p-3 pb-5 justify-content-center">
+                <div class="col-md-12"><img class="text-center rounded-circle catimg" src="icon-all.jpg" href="#"></div>
+                <div class="ytext col-md-12">All Recipes</div>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+
+    <div class="row pt-5 mx-4 text">
+        <div class="col-md-5 col-sm-12 about-t text-center">
+            <p>About Our Recipes</p>
+        </div>
+        <div class="col-md-6 col-sm-12 about-p">
+            <p style="text-align: left;">Welcome to Recipes by Los Pollos Hermanos! Dive into a world of bold flavors, savory spices, and mouthwatering dishes inspired by the iconic Los Pollos Hermanos. Here, we share secret recipes, cooking tips, and culinary delights that bring the taste of the famous restaurant straight to your kitchen. Whether you're a seasoned chef or a home cook, our recipes will take your meals to the next level with a little bit of that Los Pollos magic. Let’s cook up something unforgettable!</p>
+        </div>
+    </div><br><br><br><br><br><br><br>
+
+    <div class="container-fluid feat justify-content-center">
+        <div class="row">
+            <p class="about-t col-12">Featured</p>
+        </div>
+        <div class="cont container-fluid rounded align-self-center">
+            <div class="row">
+                <div class="col-md-5 col-sm-12"><img class="featimg py-3 px-1 rounded" src="feat-mini.jpg"></div>
+                <div class="col-md-7 p-5 col-sm-12">
+                    <div>
+                        <p class="feat-t">Mini Tacos</p>
+                    </div>
+                    <div>
+                        <p class="feat-p ">Mini tacos are small, handheld versions of the classic taco, filled with seasoned meat, fresh veggies, and flavorful toppings. They're perfect for parties or as a fun, bite-sized snack, offering all the deliciousness of a regular taco in a smaller, more portable form.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="cont container-fluid rounded align-self-center">
+            <div class="row">
+                <div class="col-md-5 col-sm-12"><img class="featimg py-3 px-1 rounded" src="icon-burrito.jpg"></div>
+                <div class="col-md-7 p-5 col-sm-12">
+                    <div>
+                        <p class="feat-t">Chicken Burrito</p>
+                    </div>
+                    <div>
+                        <p class="feat-p ">A chicken burrito is a soft flour tortilla filled with seasoned, grilled chicken, rice, beans, and fresh toppings like lettuce, cheese, and salsa. It's a hearty, flavorful meal wrapped up in a convenient, portable package, perfect for lunch or dinner.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="cont container-fluid rounded align-self-center">
+            <div class="row">
+                <div class="col-md-5 col-sm-12"><img class="featimg py-3 px-1 rounded" src="feat-cheese.jpg"></div>
+                <div class="col-md-7 p-5 col-sm-12">
+                    <div>
+                        <p class="feat-t">Cheese Quesadillas</p>
+                    </div>
+                    <div>
+                        <p class="feat-p ">Cheese quesadillas are simple yet delicious, made by filling a flour tortilla with melted cheese and then griddling it until golden and crispy. They’re a quick and satisfying meal or snack, perfect on their own or with a side of salsa, sour cream, or guacamole.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="dots container text-center">
+        <p>...</p>
+    </div><br><br><br>
+
+    <div class="row pt-5 mx-4 justify-content-center">
+        <div class="col-md-8">
+            <div class="col-md-12 col-sm-12 about-t submit">
+                <p style="color: #ffe08e;">Submit your recipes to us amigo!</p>
+            </div>
+            <div class="col-md-12 col-sm-12 about-p">
+                <p style="text-align: left">Share your favorite recipe with us! Simply fill out the form.. We can’t wait to try your creation. Make sure to include all the details. Let’s cook something amazing together!</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="recipe-form.html"><button href="recipe-form.html" class="share-it">Share it!</button></a>
+        </div>
+    </div><br><br><br><br><br><br><br>
+
+
+    <div class="footer row justify-content-center">
+        <div class="col-md-2 col-sm-6 p-2">
+            <p class="f1">Recipes</p>
+            <p class="f2">All Recipes</p>
+            <p class="f2">Tacos</p>
+            <p class="f2">Wraps</p>
+        </div>
+        <div class="col-md-2 col-sm-6 p-2">
+            <p class="f1">Pages</p>
+            <p class="f2"><a href="index.html" style="text-decoration: none; color: #ff8776ff;">Home</a></p>
+            <p class="f2"><a href="#.html" style="text-decoration: none; color: #ff8776ff;">Recipes</a></p>
+            <p class="f2"><a href="#.html" style="text-decoration: none; color: #ff8776ff;">About</a></p>
+        </div>
+        <div class="col-md-3 col-sm-6 p-2">
+            <p class="f1">Contacts</p>
+            <p class="f2">Facebook</p>
+            <p class="f2">Instagram</p>
+            <p class="f2">X</p>
+            <p class="f2">YouTube</p>
+        </div>
+        <div class="col-md-4 col-sm-12 p-2 ">
+            <p class="f1">Send your own recipe</p>
+            <p class="f2">Click <a href="recipe-form.html" class="f2-1">here</a> to submit your recipe! We’d love to feature your delicious creations. Just fill out the form with your ingredients and instructions. Let’s inspire others with your cooking!</p>
+        </div>
+        <div class="col-md-1 col-sm-0"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
