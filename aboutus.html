@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos Hermanos</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dokdo&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dokdo&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="q2.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="index.html">LPH</a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LPH</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item ">
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  RECIPES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="allrecipes.html">All Recipes</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="recipe-minitaco.html">Tacos</a></li>
+                  <li><a class="dropdown-item" href="recipe-chickenburrito.html">Wraps</a></li>
+                  <li><a class="dropdown-item" href="recipe-cheesequesadilla.html">Quesadillas</a></li>
+                  <li><a class="dropdown-item" href="recipe-loadednachos.html">Nachos</a></li>
+                  <li><a class="dropdown-item" href="recipe-salsa.html">Dips</a></li>
+                  <li><a class="dropdown-item" href="recipe-spanish rice.html">Other</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#">ABOUT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="login.html" class="login-button">Login</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav><br><br><br><br>
+
+    <div class="title row justify-content-center">
+        <p></p>
+        <p class="herm">About Us</p>
+    </div>
+
+    <div class="cat container-fluid rounded align-self-center">
+        <div class="row text-center"><p style="font-family: dokdo; color: #ffe08e; font-size: 80px;">Los Pollos Hermanos</p>
+        </div>
+        <div class="row justify-content-center p-3" style="font-family: lexend deca; color: #ff8776ff;">
+            <p>Welcome to Los Pollos Hermanos, your ultimate destination for authentic Mexican recipes! Our website was created to bring the rich flavors of Mexico right to your kitchen. Whether you're a seasoned cook or just starting to explore Mexican cuisine, we provide easy-to-follow recipes for everyone. From sizzling fajitas to flavorful enchiladas, our dishes capture the vibrant tastes and traditions that make Mexican food so beloved around the world. </p>
+            <p>At Los Pollos Hermanos, we believe that food is more than just a meal—it's an experience. Our passion for Mexican cooking shines through in every recipe we share. We focus on using fresh, high-quality ingredients to create traditional dishes that are both delicious and accessible. Whether you're looking for a quick weeknight dinner or planning a festive gathering, our recipes will inspire you to bring a little taste of Mexico into your home.</p>
+            <p>Join our community of food lovers who are passionate about celebrating Mexican culture through food. Los Pollos Hermanos is not just about cooking; it's about connecting with family, friends, and traditions. We are committed to providing you with the best recipes, tips, and cooking techniques to help you master the art of Mexican cuisine. We’re excited to share our love for food with you—let's cook together!</p>
+        </div>
+    </div><br><br><br><br><br><br><br>
+
+    
+
+    <div class="footer row justify-content-center">
+        <div class="col-md-2 col-sm-6 p-2">
+            <p class="f1">Recipes</p>
+            <p class="f2"><a href="allrecipes.html" style="text-decoration: none; color: #ff8776ff;">All Recipes</a></p>
+            <p class="f2"><a href="recipe-minitaco.html" style="text-decoration: none; color: #ff8776ff;">Tacos</a></p>
+            <p class="f2"><a href="recipe-chickenburrito.html" style="text-decoration: none; color: #ff8776ff;">Wraps</a></p>
+        </div>
+        <div class="col-md-2 col-sm-6 p-2">
+            <p class="f1">Pages</p>
+            <p class="f2"><a href="index.html" style="text-decoration: none; color: #ff8776ff;">Home</a></p>
+            <p class="f2"><a href="allrecipes.html" style="text-decoration: none; color: #ff8776ff;">Recipes</a></p>
+            <p class="f2"><a href="aboutus.html" style="text-decoration: none; color: #ff8776ff;">About Us</a></p>
+        </div>
+        <div class="col-md-3 col-sm-6 p-2">
+            <p class="f1">Contacts</p>
+            <p class="f2">Facebook</p>
+            <p class="f2">Instagram</p>
+            <p class="f2">X</p>
+            <p class="f2">YouTube</p>
+        </div>
+        <div class="col-md-4 col-sm-12 p-2 ">
+            <p class="f1">Send your own recipe</p>
+            <p class="f2">Click <a href="recipe-form.html" class="f2-1">here</a> to submit your recipe! We’d love to feature your delicious creations. Just fill out the form with your ingredients and instructions. Let’s inspire others with your cooking!</p>
+        </div>
+        <div class="col-md-1 col-sm-0"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
